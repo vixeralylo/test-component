@@ -1,0 +1,30 @@
+{
+  "name": "test-component",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vixeralylo"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "BRI",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^19.0.3",
+    "react": "^19.0.0",
+    "rollup": "^4.30.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "typescript": "^5.7.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
