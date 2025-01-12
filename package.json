@@ -1,7 +1,7 @@
 {
   "name": "test-component",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/vixeralylo"
+    "registry": "https://npm.pkg.github.com/@vixeralylo"
   },
   "version": "1.0.0",
   "description": "",
